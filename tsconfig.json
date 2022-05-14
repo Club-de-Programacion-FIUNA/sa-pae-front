@@ -18,9 +18,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "typeRoots": ["./src/assets", "./node_modules/@types"],
+    "types": ["jest"]
   },
   "include": [
-    "src"
+    "src/**/*"
   ]
 }
